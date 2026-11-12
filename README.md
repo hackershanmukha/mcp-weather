@@ -1,8 +1,15 @@
 # 🌦️ Saige Weather MCP Server
 
-[![PyPI version](https://img.shields.io/pypi/v/saige-weather-mcp.svg?color=blue)](https://pypi.org/project/saige-weather-mcp/)
-[![Python versions](https://img.shields.io/pypi/pyversions/saige-weather-mcp.svg)](https://pypi.org/project/saige-weather-mcp/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<p align="center">
+  <img src="assets/banner.svg" alt="Saige Weather MCP Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://pypi.org/project/saige-weather-mcp/"><img src="https://img.shields.io/pypi/v/saige-weather-mcp.svg?color=blue" alt="PyPI version" /></a>
+  <a href="https://pypi.org/project/saige-weather-mcp/"><img src="https://img.shields.io/pypi/pyversions/saige-weather-mcp.svg" alt="Python versions" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/hackershanmukha/mcp-weather"><img src="https://img.shields.io/github/stars/hackershanmukha/mcp-weather?style=social" alt="GitHub stars" /></a>
+</p>
 
 A lightweight, production-ready **Model Context Protocol (MCP)** server that delivers real-time weather information for any city or country worldwide using the free **Open-Meteo** API.
 
@@ -34,6 +41,10 @@ Or test it interactively with the **MCP Inspector**:
 ```bash
 npx @modelcontextprotocol/inspector uvx saige-weather-mcp
 ```
+
+<p align="center">
+  <img src="assets/inspector.jpg" alt="MCP Inspector Running Saige Weather" width="95%" />
+</p>
 
 ---
 
