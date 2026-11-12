@@ -136,6 +136,21 @@ Fetch live atmospheric conditions for any location.
 
 ---
 
+## 💬 Example Prompts
+
+Test that your AI client uses the MCP server directly instead of its built-in knowledge or web search:
+
+1. **Current City Weather:**
+   > *"What is the current weather in Tokyo? (Use the weather MCP tool, do not use built-in search or training data)"*
+
+2. **Multi-City Comparison:**
+   > *"Compare the current weather between Paris and Sydney right now. (Use the weather MCP tool only, do not use built-in estimates)"*
+
+3. **Detailed Conditions:**
+   > *"What is the current temperature, humidity, and wind speed in New York? (Fetch using the get_weather MCP tool, not built-in knowledge)"*
+
+---
+
 ## 💻 Local Development
 
 If you want to contribute or modify this project locally:
