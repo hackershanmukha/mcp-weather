@@ -1,8 +1,11 @@
 from typing import Any
 import httpx
-from mcp.server.mcpserver import MCPServer
-
-mcp = MCPServer("weather")
+try:
+    from mcp.server.fastmcp import FastMCP
+    mcp = FastMCP("weather")
+except ImportError:
+    from mcp.server.mcpserver import MCPServer
+    mcp = MCPServer("weather")
 
 @mcp.tool()
 async def get_weather(location: str) -> str:
