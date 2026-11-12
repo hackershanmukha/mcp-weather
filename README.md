@@ -97,6 +97,26 @@ agent = MCPAgent(llm=ChatGroq(model_name="openai/gpt-oss-120b"), client=client)
 
 ---
 
+### 4. Adding to VS Code (Copilot Chat)
+
+Add to your VS Code MCP configuration (`.vscode/mcp.json` or `%APPDATA%\Code\User\mcp.json`):
+
+```json
+{
+  "servers": {
+    "weather": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["saige-weather-mcp"]
+    }
+  }
+}
+```
+
+Reload VS Code (`Ctrl+Shift+P` -> `Developer: Reload Window`), start a new chat, and Copilot will have access to `get_weather`.
+
+---
+
 ## 🛠️ Tools Provided
 
 ### `get_weather`
