@@ -13,6 +13,8 @@
 
 A lightweight, production-ready **Model Context Protocol (MCP)** server that delivers real-time weather information for any city or country worldwide using the free **Open-Meteo** API.
 
+📦 **PyPI Release:** [https://pypi.org/project/saige-weather-mcp/0.1.1/](https://pypi.org/project/saige-weather-mcp/0.1.1/)
+
 Compatible with **Claude Desktop**, **Cursor**, **Windsurf**, and custom AI agent workflows (LangChain, Groq, AutoGen).
 
 ---
@@ -30,7 +32,7 @@ Compatible with **Claude Desktop**, **Cursor**, **Windsurf**, and custom AI agen
 
 ### 1. Using directly with `uvx` (No installation needed)
 
-You can launch and test the server immediately with Astral's `uvx`:
+Available on PyPI at [https://pypi.org/project/saige-weather-mcp/0.1.1/](https://pypi.org/project/saige-weather-mcp/0.1.1/). You can launch and test the server immediately with Astral's `uvx`:
 
 ```bash
 uvx saige-weather-mcp
