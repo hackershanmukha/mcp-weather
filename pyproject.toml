@@ -1,6 +1,6 @@
 [project]
 name = "saige-weather-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "A global weather MCP server powered by Open-Meteo"
 readme = "README.md"
 license = { text = "MIT" }
