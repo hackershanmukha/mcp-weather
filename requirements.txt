@@ -1,0 +1,10 @@
+langchain-groq
+langchain-openai
+mcp-use
+mcp
+mcp[cli]
+nest_asyncio
+httpx
+openai
+fastapi
+python-dotenv
